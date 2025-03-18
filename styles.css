@@ -6,28 +6,55 @@
     font-weight: 400;
 }
 
+body{
+    width: 100vw; 
+    background: linear-gradient(to right, #1e013f, #513f66);
+}
+
 header{
-    width: 100%;
-    height: 30%;
+    background: linear-gradient(to right, #1e013f, #513f66);
+}
+
+.imagem-header{
+    width: 50vw;
+    height: 35vh;
+    margin-left: 300px;
+    opacity: 0.8;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    background: linear-gradient(to right, #1e013f, #513f66);
+    color: white;
 }
 
 section{
     display: flex;
-    width: 100%;
-    height: 30%;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 30vh;
 }
 
 .imagem{
-    width: 400px;
-    height: 200px;
+    width: 20%;
+    height: 96%;
+    border-radius: 90px;
 }
 
 .paragrafo{
-    width: 400px;
+    width: 800px;
+    color: white;
+    font-size: 16px;
 }
 
 .img-carousel{
     max-width: 400px;
+    margin:80px 0 20px 24px;
 }
 
 .carousel slide{
@@ -35,5 +62,6 @@ section{
     bottom: 0px;
     position: absolute;
     display: inline-block;
-    margin-bottom: 30px;
 }
+
+
