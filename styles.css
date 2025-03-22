@@ -46,10 +46,25 @@ header{
 }
 
 .logain:hover{
-    opacity: 0.6
+    opacity: 0.6;
 }
 
-.caixa-login, .caixa-cadastro {
+.cadastro{
+    width: 150px;
+    height: 35px;
+    margin-top: 40px ; 
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+
+.cadastro:hover{
+    opacity: 0.6;
+}
+
+.caixa-login{
     display: flex;
     flex-direction: column;
     width: 30%;
@@ -58,7 +73,21 @@ header{
     border-radius: 10px;
     border: 2px solid #444141;
     position: absolute;
-    margin: -300px 0 0 450px;
+    margin: -300px 0 0 -450px;
+    transition: left 2s ease-in-out;
+}
+
+.caixa-cadastro{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 10px;
+    background: linear-gradient(to right, #1e013f, #513f66);
+    border-radius: 10px;
+    border: 2px solid #444141;
+    position: absolute;
+    margin: -300px 0 0 -450px;
+    transition: left 2s ease-in-out;
 }
 
 input{
