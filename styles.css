@@ -31,7 +31,7 @@ header{
 .cliente{
     display: flex;
     flex-direction: column; 
-    margin-left: 50px;
+    margin-left: 50px; 
 }
 
 .logain{
@@ -73,8 +73,9 @@ header{
     border-radius: 10px;
     border: 2px solid #444141;
     position: absolute;
-    margin: -300px 0 0 -450px;
+    margin: -110px 0 0 10px;
     transition: left 2s ease-in-out;
+
 }
 
 .caixa-cadastro{
@@ -86,8 +87,18 @@ header{
     border-radius: 10px;
     border: 2px solid #444141;
     position: absolute;
-    margin: -300px 0 0 -450px;
+    margin: -110px 0 0 10px;
     transition: left 2s ease-in-out;
+}
+
+ .mascara-formulario {
+    visibility: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    transition: visibility 1s ease-in-out;
 }
 
 input{
@@ -138,7 +149,7 @@ section{
 }
 
 .img-carousel{
-    max-width: 400px;
+    max-width: 50%;
     margin:80px 0 20px 24px;
 }
 
@@ -149,4 +160,68 @@ section{
     display: inline-block;
 }
 
+@media (max-width: 1306px){
+    .img-carousel{
+      width: 16%;
+    }
+}
 
+@media (max-width: 1270px){
+    .img-carousel{
+      width: 15%;
+    }
+}
+
+@media (max-width: 1024px){
+    header{
+        height: 15vh;
+    }
+    section{
+        height: 12vh;
+        padding: 10px;
+    }
+    h1{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1024px){
+    header{
+        height: 20vh;
+    }
+    section{
+        height: 13vh;
+        padding: 10px;
+    }
+    h1{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 540px){
+    header{
+        height: 20vh;
+        padding: 10px
+    }
+    .paragrafo{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .img-carousel{
+        margin-left: 12px;
+    }
+    .caixa-cadastro{
+        width: 50%;
+    }
+    .caixa-login{
+        width: 50%;
+    }
+}
+
+@media (max-width: 350px){
+    .cliente{
+        margin-left: 10px;
+    }
+}
