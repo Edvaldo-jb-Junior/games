@@ -11,7 +11,7 @@ function logain(){
 }
 
 function novo(){
-    cadastro.style.left = "700px"
+    cadastro.style.left = "650px"
     cadastro.style.transform = "translateX(-50%)"
     mascara.style.visibility = "visible"
 }
