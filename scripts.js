@@ -17,9 +17,9 @@ function novo(){
 }
 
 function esconder(){
-    login.style.left = "-450%"
+    login.style.left = "-410%"
     login.style.transform = "translateX(0)"
-    cadastro.style.left = "-450%"
+    cadastro.style.left = "-410%"
     cadastro.style.transform = "translateX(0)"
     mascara.style.visibility = "hidden"
 }
